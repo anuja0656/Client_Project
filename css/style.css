@@ -170,13 +170,13 @@ a:active {
   font-size: 18px;
   padding: 15px 40px;
   display: inline-block;
-  background-color: #f9a743;
+  background-color: #e01a1a;
   box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
   background-image: linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
 }
 
 .btn-main:hover, .btn-main:focus {
-  background-color: #f9a743;
+  background-color: #e64040;
   color: #fff;
 }
 
@@ -349,8 +349,8 @@ a:active {
   /* font-weight:  bold; */
   font-size: 25px;
   line-height: 1;
-  height: 120px;
-  width:120px;
+  height: 140px;
+  width:140px;
 }
 
 .nav-link {
