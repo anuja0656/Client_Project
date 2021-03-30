@@ -445,7 +445,7 @@ a:active {
   font-size: 40px;
   display: inline-block;
   margin-bottom: 20px;
-  color: #f9a743;
+  color: #ff1111;
 }
 
 .testimonials .testimonial-block p {
@@ -510,7 +510,7 @@ a:active {
 
 footer {
   text-align: center;
-  background: #f4f4f4;
+  background: #dfdfdf;
   padding: 50px 0px;
 }
 
