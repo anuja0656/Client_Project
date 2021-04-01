@@ -167,7 +167,7 @@ a:active {
 }
 .whatsappbtn{
   margin: auto;
-  text-align: ;
+  text-align: center;
 }
 
 .btn-main {
@@ -371,8 +371,8 @@ a:active {
   /* font-weight:  bold; */
   font-size: 25px;
   line-height: 1;
-  height: 100px;
-  width:100px;
+  height: 90px;
+  width:130px;
 }
 
 .nav-link {
