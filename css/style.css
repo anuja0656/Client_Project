@@ -346,6 +346,20 @@ a:active {
 }
 
 /* navigation */
+
+#nav {
+  background-color: #ffffff;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+  cursor: default;
+  height: 3.5em;
+  line-height: 3.5em;
+}
+
 .navbar-brand {
   color: rgb(255, 17, 17);
   /* font-weight:  bold; */
