@@ -424,7 +424,7 @@
     <section style="font-family: Josefin Sans, sans-serif;" class=" contact-us col-md-6 align-self-center text-center text-md-left" >
         <div class="row row mb-40" >
             
-            <div class="contact-col content">
+            <div class=" col-12-small col-lg-4 col-sm-6 mb-5 mb-lg-0 text-center">
                 
                     <i class="fa fa-home">
                         <span>
@@ -453,17 +453,31 @@
                     </i>
                 
             </div>
-            <div class="contact-col">
-                <form action="">
-                    <input type="text" placeholder="Name" required>
-                    <input type="email" placeholder="Email" required>
-                    <input type="text" placeholder="Subject" required>
-                    <textarea name="" id=""  rows="8" placeholder="Message" required></textarea>
-                    <div style="text-align: center; margin-top: 10px;">
-                        <button style="text-align: center;margin: auto; " class="btn btn-main" type="submit"> Submit</button>
-                    </div>
-                </form>
-            </div>
+            <div class="row contact-us contact-col col-12-small">
+                <div class="col-12  col-12-small">
+                    <form method="post" action="#">
+                        <div class="row col-12-small">
+                            <div class="col-6 col-12-small">
+                                <input type="text" name="name" id="name" placeholder="Name" />
+                            </div>
+                            <div class="col-6 col-12-small">
+                                <input type="text" name="email" id="email" placeholder="Email" />
+                            </div>
+                            <div class="col-12">
+                                <input type="text" name="subject" id="subject" placeholder="Subject" />
+                            </div>
+                            <div class="col-12">
+                                <textarea name="message" id="message" placeholder="Message"></textarea>
+                            </div>
+                            <div class="col-12 .btn-main1 .whatsappbtn style="margin: auto;align-items: center;">
+                                <ul class="actions .btn-main1 .whatsappbtn ">
+                                    <li><input style="margin: 5px;" class="btn-main1" type="submit" value="Send Message" /></li>
+                                    <li><input class="btn-main1" type="reset" value="Clear Form" class="alt" /></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </form>
+                </div>
     </section>
     <section class="location">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29335.539033032772!2d77.07047452049949!3d23.208770430964872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397cf36a4bac0fb9%3A0xce6c687b989469e1!2sSehore%2C%20Madhya%20Pradesh%20466001!5e0!3m2!1sen!2sin!4v1617180753134!5m2!1sen!2sin"
