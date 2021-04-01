@@ -102,7 +102,7 @@ a:active {
 }
 
 .section {
-  padding: 100px 0;
+  padding: 140px 0;
 }
 
 .font-size-60 {
@@ -174,8 +174,8 @@ a:active {
 .btn-main {
   color: #fff;
   border-radius: 30px;
-  font-size: 10px;
-  padding: 15px 40px;
+  font-size: 17px;
+  padding: 10px 20spx;
   display: inline-block;
   background-color: #e01a1a;
   box-shadow: 0 15px 60px rgba(243, 63, 63, 0.5);
@@ -364,16 +364,21 @@ a:active {
   height:relative;
   line-height: 3.5em;
 }
+/* shrink */
 
+.shrink{
+  padding: 4px 0px;
+}
 
 
 .navbar-brand {
   color: rgb(255, 17, 17);
-  /* font-weight:  bold; */
+  font-weight:  bolder;
+  
   font-size: 25px;
   line-height: 1;
-  height: 90px;
-  width:130px;
+  height: 100px;
+  width:100px;
 }
 
 .nav-link {
